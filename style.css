@@ -1,0 +1,105 @@
+body {
+    background-color: #fc0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    padding: 4rem;
+    width: 80%;
+    max-width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: 0px transparent;
+    border-radius: 50%;
+    margin: 4px;
+    padding: 4px;
+}
+
+.fa {
+    font-size: 48px;
+    color: black;
+}
+
+.reset {
+    padding: 8px;
+}
+
+.reset:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 56px;
+    color:rgba(0, 0, 0, .5);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.animate-character
+{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 60px;
+    }
+
+
+    @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+#screen {
+    font-size: 16px;
+}
+
+.button {
+    width: 100%;
+    background-color: rgba(0, 20, 255, 1);
+    border-radius: 4px;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+
+}

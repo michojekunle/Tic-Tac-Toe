@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+
+	<script src=
+"https://code.jquery.com/jquery-3.4.1.slim.min.js">
+	</script>
+	<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+	</script>
+	<link rel="stylesheet" href=
+"https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity=
+"sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+		crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container"> 
+	<!-- Heading -->
+	<div class="container-fluid text-center animate-character">
+		<h1>TIC-TAC-TOE</h1></div>
+	<br>
+	<br>
+	<div class="container-fluid text-center">
+	
+		<!-- Inform area for player's turn -->
+		<h4 id="screen" class="animate-character" style="color: white;">
+		PLAYER 1 TURN FOLLOWS
+		</h4>
+	</div>
+	<br>
+	<div class="container-fluid flex-item">
+		<div class="row">
+			<div class="col-lg-4">  </div>
+			<div class="col-lg-4 flex-item">
+				<!-- Playing Canvas -->
+					<table>
+						<tr>
+							<td colspan="3">
+						</tr>
+						<tr>
+							<td>
+								<button class="sq1 r"></button>
+							</td>
+							<td>
+								<button class="sq2 r"></button>
+							</td>
+							<td>
+								<button class="sq3 r"></button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button class="sq4 r"></button>
+							</td>
+							<td>
+								<button class="sq5 r"></button>
+							</td>
+							<td>
+								<button class="sq6 r"></button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button class="sq7 r"></button>
+							</td>
+							<td>
+								<button class="sq8 r"></button>
+							</td>
+							<td>
+								<button class="sq9 r"></button>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<br>
+				
+					<!-- Reset button for Game -->
+					<input type="button"
+						class="reset button"
+						value="RESET" onClick="reset()" />
+			</div>
+			<div class="col-lg-4">  </div>
+		</div>
+	</div>
+</div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
